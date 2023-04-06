@@ -1,0 +1,66 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  margin: 70px;
+  font-size: 30px;
+  text-align: center;
+}
+.field-choices-text {
+  margin-top: -26px;
+}
+.field-text {
+  font-size: 20px;
+}
+.flex-container-form {
+  display: flex;
+  flex-direction: column;
+  margin: 70px;
+  font-size: 30px;
+  text-align: center;
+}
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  .field-choices-text {
+    margin-top: 0px;
+  }
+}
+.flex-item {
+  padding: 10px;
+  flex: 25%;
+}
+.input-text-label {
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.input-select-label {
+  width: 94%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.check-text-label {
+  width: 90%;
+}
+.add-button {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  height: 40px;
+  width: 100px;
+  font-size: 16px;
+  margin: 10px;
+  border-radius: 12px;
+  cursor: pointer;
+}
